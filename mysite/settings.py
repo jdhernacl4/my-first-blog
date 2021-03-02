@@ -27,7 +27,11 @@ SECRET_KEY = 'fhp_&ue7^%_+)h63w3&#w15i6k3xf(ln_75$4#4j3gy$!9y+ov'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['jdhernacl4.pythonanywhere.com']
+#<<<<<<< HEAD
+#ALLOWED_HOSTS = ['jdhernacl4.pythonanywhere.com']
+#=======
+ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com']
+#>>>>>>> 74c52c75f5ccf22af9afbe36607c4678c655e7ea
 
 
 # Application definition
