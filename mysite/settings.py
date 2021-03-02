@@ -27,7 +27,7 @@ SECRET_KEY = 'fhp_&ue7^%_+)h63w3&#w15i6k3xf(ln_75$4#4j3gy$!9y+ov'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['jdhernacl4.pythonanywhere.com']
 
 
 # Application definition
@@ -124,3 +124,6 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = Path(BASE_DIR / 'media')
